@@ -68,22 +68,25 @@ Then we define the $divV \coloneqq{} \frac{\partial P}{\partial x} + \frac{\part
     We have the hypothesis that $divV = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} = 0$
 
     >We need to introduce some definitions first:
-    >>Definiton 1 ($1-form$):
-     We say that $w$ is a $1-form \;$if $ w = A(x,y)dx + B(x,y)dy \;    \\where \;A , B : \mathbb{R}^2 \rightarrow \mathbb{R}$ are fucntions.
-     $\\$
-     $\\$
-     >>Definition 2($Exact form$):
-     Given a $1-form \; w = A(x,y)dx+B(x,y)dy  $
-     we say $w$ is $exact\;$ if $\; w=dH \; for\;some \;H$
-     Where $dH \coloneqq \frac{\partial H}{\partial x}dx + \frac{\partial H}{\partial y}dy$
+        >>Definiton 1 ($1-form$):
+        We say that $w$ is a $1-form \;$if $ w = A(x,y)dx + B(x,y)dy \;    \\where \;A , B : \mathbb{R}^2 \rightarrow \mathbb{R}$ are fucntions.
+        $\\$
+        $\\$
+        >>Definition 2($Exact \; form$):
+        Given a $1-form \; w = A(x,y)dx+B(x,y)dy  $
+        we say $w$ is $exact\;$ if $\; w=dH \; for\;some \;H$
+        Where $dH \coloneqq \frac{\partial H}{\partial x}dx + \frac{\partial H}{\partial y}dy$
+        $\\$
+        $\\$
+        >>Definition 3($Closed \; form$):
+        Given a $1-form \; w$ we say that $w$ is closed
+        if
+        $dw = 0$
 
-
-
-
-
-
-
-
+    >Then we have a Threorm($Poincare\;lemma$):
+    Given a $1-form\;w\coloneqq A(x,y)dx + B(x,y)dy$ which is closed,and the domain of $A,B$ are simply connected.
+    Then
+    $w\text{ is } exact$
 - ### Answer of Question 2 :
 
 
