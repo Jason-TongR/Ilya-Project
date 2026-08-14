@@ -10,7 +10,7 @@
     >\dot{y} = Q(x,y)
     >\end{cases}
     >$$
-    >Suppose our domain is simply connected , Is the following >statment correct?
+    >Suppose our domain is simply connected , Is the following statment correct?
     >$$div V = 0 \iff A\text{ is a }Hamiltonian \;system$$
 
 
