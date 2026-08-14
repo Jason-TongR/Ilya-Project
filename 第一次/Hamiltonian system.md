@@ -119,6 +119,8 @@ $\text{Then we define the }divV \coloneqq{} \frac{\partial P}{\partial x} + \fra
 
     $\text{Now compute the }divV = \frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y} = (2(A_1+B_1)x+(2B_2-2A_2)y+2C_1x)+((2A_1-2B_1)x-2(A_2+B_2)y+2C_2y)$
     $\\$
+    $\text{In Question 1 , We konw that :}$
+    $$div V = 0 \iff A\text{ is a }Hamiltonian \;system$$
     $\text{Let }divV=0 \text{ ,Then we have :}$
     $$divV = (4A_1+2C_1)x+(-4A_2+2C_2)y=0 \;\;\;\;\forall x,y$$
     $\text{So we have :}$
@@ -128,7 +130,7 @@ $\text{Then we define the }divV \coloneqq{} \frac{\partial P}{\partial x} + \fra
     \end{cases}$$
     $\Rightarrow$
     $$\begin{cases}
-        2A_1=-C1\\
+        2A_1=-C_1\\
         2A_2=C_2
     \end{cases}$$
     $\text{That is :}$
