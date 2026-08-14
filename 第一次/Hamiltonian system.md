@@ -101,7 +101,7 @@
     $\text{Consider the complex form of two dimensional autonomous system :}$
     $$\dot{z}=iz+Az^2+B\bar{z}^2+Cz\bar{z} \tag{*}$$
     $\text{where}$
-    $$A\coloneqq A_1+iA_2$$
+    $$A\coloneqq A_1+iA_2 \\ B \coloneqq B_1 + iB_2\\C \coloneqq C_1 + iC_2\\$$
     $\text{Now we try to change this complex form into the original form}$
     $\text{Supoose}$
     $$z\coloneqq x+iy$$
