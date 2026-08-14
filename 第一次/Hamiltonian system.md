@@ -45,41 +45,42 @@ Find the condition of $\mu$ such that $\tilde{A}$ is a $Hamiltonian \; system.$
     PROOF:
     $\\$
     $(\Leftarrow):$
- We have the hypothesis that $A \; is \; a \;Hamiltonian \;system$ 
-that is $\exists \; H:\mathbb{R}^2 \rightarrow \mathbb{R} \; and \;H\in C^2(\mathbb{R}^2) \;such\;that \begin{cases}
-P(x,y) = H_y\\
-Q(x,y) = -H_x
-\end{cases}$
-Now , we have the definiton of $div V:$
-    >$Definiton$ : Suppose we have the two dimensional autonomous system :
-$$
-A:\begin{cases}
-\dot{x} = P(x,y)\\
-\dot{y} = Q(x,y)
-\end{cases}
-$$
-$\text{Then we define the }divV \coloneqq{} \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y}$ 
+    We have the hypothesis that $A \; is \; a \;Hamiltonian \;system$ 
+    that is $\exists \; H:\mathbb{R}^2 \rightarrow \mathbb{R} \; and \;H\in C^2(\mathbb{R}^2) \;such\;that \begin{cases}
+    P(x,y) = H_y\\
+    Q(x,y) = -H_x
+    \end{cases}$
+    Now , we have the definiton of $div V:$
+        >$Definiton$ : Suppose we have the two dimensional autonomous system :
+    $$
+    A:\begin{cases}
+    \dot{x} = P(x,y)\\
+    \dot{y} = Q(x,y)
+    \end{cases}
+    $$
+    $\text{Then we define the }divV \coloneqq{} \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y}$ 
 
     We want to show that $div V = 0$
-    So  $div V \overset{by\;definition}{=} \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} \overset{hypothesis}{=}H_{yx} + (-H_{xy}) \overset{H \; is\;in \;C^2}{=} 0$
+    So $div V \overset{by\;definition}{=} \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} \overset{hypothesis}{=}H_{yx} + (-H_{xy}) \overset{H \; is\;in \;C^2}{=} 0$
     $\square$
     $\\$
     $(\Rightarrow):$
-    >We need to introduce some definitions first:
-        >>$\text{Definiton 1} (1-form):$
-        We say that $w$ is a $1-form \;\text{if } w = A(x,y)dx + B(x,y)dy \;    \\where \;A , B : \mathbb{R}^2 \rightarrow \mathbb{R}$ are fucntions.
-        $\\$
-        $\\$
-        >>$\text{Definiton 2}(Exact \; form):$
-        Given a $1-form \; w = A(x,y)dx+B(x,y)dy  $
-        we say $w$ is $exact\;\text{ if }\; w=dH \; for\;some \;H$
-        Where $dH \coloneqq \frac{\partial H}{\partial x}dx + \frac{\partial H}{\partial y}dy$
-        $\\$
-        $\\$
-        >>$\text{Definiton 3}(Closed \; form):$
-        Given a $1-form \; w = A(x,y)dx+B(x,y)dy$ we say that $w$ is closed
-        $\text{if}$
-        $dw = 0 \\(\text{where }dw \coloneqq dA \wedge dx + dB\wedge dy = (A_xdx + A_ydy)\wedge dx + (B_xdx+B_ydy)\wedge dy = (B_x-A_y)dx\wedge dy)$
+    >$\text{We need to introduce some definitions first :}$
+
+
+    >$\text{Definiton 1} (1-form):$
+    We say that $w$ is a $1-form \;\text{if } w = A(x,y)dx + B(x,y)dy \;    \\where \;A , B : \mathbb{R}^2 \rightarrow \mathbb{R}$ are fucntions.
+
+
+    >$\text{Definiton 2}(Exact \; form):$
+    Given a $1-form \; w = A(x,y)dx+B(x,y)dy  $
+    we say $w$ is $exact\;\text{ if }\; w=dH \; for\;some \;H$
+    Where $dH \coloneqq \frac{\partial H}{\partial x}dx + \frac{\partial H}{\partial y}dy$
+
+    >$\text{Definiton 3}(Closed \; form):$
+    Given a $1-form \; w = A(x,y)dx+B(x,y)dy$ we say that $w$ is closed
+    $\text{if}$
+    $dw = 0 \\(\text{where }dw \coloneqq dA \wedge dx + dB\wedge dy = (A_xdx + A_ydy)\wedge dx + (B_xdx+B_ydy)\wedge dy = (B_x-A_y)dx\wedge dy)$
 
     >$\text{Theorem}(Poincare\;lemma):$
     Given a $1-form\;w\coloneqq A(x,y)dx + B(x,y)dy$ and the domain of $A,B$ are simply connected.
