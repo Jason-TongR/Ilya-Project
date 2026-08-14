@@ -46,7 +46,7 @@ Find the condition of $\mu$ such that $\tilde{A}$ is a $Hamiltonian \; system.$
     $\\$
     $(\Leftarrow):$
  We have the hypothesis that $A \; is \; a \;Hamiltonian \;system$ 
-that is $\exist \; H:\mathbb{R}^2 \rightarrow \mathbb{R} \; and \;H\in C^2(\mathbb{R}^2) \;such\;that \begin{cases}
+that is $\exists \; H:\mathbb{R}^2 \rightarrow \mathbb{R} \; and \;H\in C^2(\mathbb{R}^2) \;such\;that \begin{cases}
 P(x,y) = H_y\\
 Q(x,y) = -H_x
 \end{cases}$
@@ -90,14 +90,14 @@ $\text{Then we define the }divV \coloneqq{} \frac{\partial P}{\partial x} + \fra
     We want to find $H \text{ such that } H_y=P \text{ and } -H_x=Q.$
 
     $\text{Since } dH = H_xdx + H_ydy = -Qdx + Pdy $
-    $$\text{So } \exist H \iff w \coloneqq -Qdx+Pdy \text{ is } exact \tag{*} $$
-    $\text{Now compute } dw:\\w \coloneqq -Qdx+Pdy \Rightarrow dw= (P_x + Q_y)dx\wedge dy \overset{\text{hypothesis}}{=} 0dx\wedge dy = 0\\ \text{So } w \text{ is } closed \\ \text{by } Poincare \; lemma \text{ , we konw that }w \text{ is } exact \text{ , then by } (*) \text{ we konw that } \exist H$
+    $$\text{So } \exists H \iff w \coloneqq -Qdx+Pdy \text{ is } exact \tag{*} $$
+    $\text{Now compute } dw:\\w \coloneqq -Qdx+Pdy \Rightarrow dw= (P_x + Q_y)dx\wedge dy \overset{\text{hypothesis}}{=} 0dx\wedge dy = 0\\ \text{So } w \text{ is } closed \\ \text{by } Poincare \; lemma \text{ , we konw that }w \text{ is } exact \text{ , then by } (*) \text{ we konw that } \exists H$
     That is , the system is $Hamiltonian.$ 
     $\square$
 - ### Answer of Question 2 :
     >$\text{The condition is : }2A = -\bar{C} \text{ and }B \text{ is free.} $
 
-    $\text{We know that all two dimensional autonomous system can be writen as the complex form :}$
+    $\text{Consider the complex form of two dimensional autonomous system :}$
     $$\dot{z}=iz+Az^2+B\bar{z}^2+Cz\bar{z} \tag{*}$$
     $\text{where}$
     $$A\coloneqq A_1+iA_2$$
