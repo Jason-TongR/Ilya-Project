@@ -4,36 +4,36 @@
 
 - ### Question 1
     >Consider the two dimensional autonomous system :
-$$
-A:\begin{cases}
-\dot{x} = P(x,y)\\
-\dot{y} = Q(x,y)
-\end{cases}
-$$
-Suppose our domain is simply connected , Is the following statment correct?
-$$div V = 0 \iff A\text{ is a }Hamiltonian \;system$$
+    $$
+    A:\begin{cases}
+    \dot{x} = P(x,y)\\
+    \dot{y} = Q(x,y)
+    \end{cases}
+    $$
+    Suppose our domain is simply connected , Is the following statment correct?
+    $$div V = 0 \iff A\text{ is a }Hamiltonian \;system$$
 
 
 - ### Question 2
     >Suppose we have the two dimensional autonomous system :
-$$
-A:\begin{cases}
-\dot{x} = P(x,y)\\
-\dot{y} = Q(x,y)
-\end{cases}
-$$
-And the complex form of A is given by:
-$$
-\tilde{A} : \; \dot{z} = iz + Az^2 + B\bar{z}^2 + Cz\bar{z}
-$$
-Supoose :
-$$
-A \coloneqq A_1 + iA_2\\
-B \coloneqq B_1 + iB_2\\
-C \coloneqq C_1 + iC_2\\
-\mu \coloneqq (A_1,A_2,B_1,B_2,C_1,C_2)
-$$
-Find the condition of $\mu$ such that $\tilde{A}$ is a $Hamiltonian \; system.$
+    $$
+    A:\begin{cases}
+    \dot{x} = P(x,y)\\
+    \dot{y} = Q(x,y)
+    \end{cases}
+    $$
+    And the complex form of A is given by:
+    $$
+    \tilde{A} : \; \dot{z} = iz + Az^2 + B\bar{z}^2 + Cz\bar{z}
+    $$
+    Supoose :
+    $$
+    A \coloneqq A_1 + iA_2\\
+    B \coloneqq B_1 + iB_2\\
+    C \coloneqq C_1 + iC_2\\
+    \mu \coloneqq (A_1,A_2,B_1,B_2,C_1,C_2)
+    $$
+    Find the condition of $\mu$ such that $\tilde{A}$ is a $Hamiltonian \; system.$
 
 
 *********
