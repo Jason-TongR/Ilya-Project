@@ -45,20 +45,20 @@
     PROOF:
     $\\$
     $(\Leftarrow):$
-    We have the hypothesis that $A \; is \; a \;Hamiltonian \;system$ 
-    that is $\exists \; H:\mathbb{R}^2 \rightarrow \mathbb{R} \; and \;H\in C^2(\mathbb{R}^2) \;such\;that \begin{cases}
+    $\text{We have the hypothesis that A is a Hamiltionian system}$ 
+    $\text{That is } \exists \; H:\mathbb{R}^2 \rightarrow \mathbb{R}  \in C^2(\mathbb{R}^2) \text{ such that} \begin{cases}
     P(x,y) = H_y\\
     Q(x,y) = -H_x
     \end{cases}$
     Now , we have the definiton of $div V:$
-        >$Definiton$ : Suppose we have the two dimensional autonomous system :
-    $$
-    A:\begin{cases}
-    \dot{x} = P(x,y)\\
-    \dot{y} = Q(x,y)
-    \end{cases}
-    $$
-    $\text{Then we define the }divV \coloneqq{} \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y}$ 
+    >$\text{Definition}$ : Suppose we have the two dimensional autonomous system :
+    >$$
+    >A:\begin{cases}
+    >\dot{x} = P(x,y)\\
+    >\dot{y} = Q(x,y)
+    >\end{cases}
+    >$$
+    >$\text{Then we define the }divV \coloneqq{} \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y}$ 
 
     We want to show that $div V = 0$
     So $div V \overset{by\;definition}{=} \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} \overset{hypothesis}{=}H_{yx} + (-H_{xy}) \overset{H \; is\;in \;C^2}{=} 0$
