@@ -30,8 +30,8 @@ $$\lambda \coloneqq (A_1,B_1,B_2)$$
 
 ## $\color{purple}{\text{Part Two : The Singular }\lambda }$
 
->$\text{Definition 1 : }(singular)$
->$\lambda = (A_1,B_1,B_2)$
+>$\text{Definition 1 : }(singular)$  
+>$\lambda = (A_1,B_1,B_2)$  
 >$\text{Suppose that we have a Hamiltonian system }A\text{ with }H(x,y,\lambda)$
 >$\text{That is :}$
 >$$A:\begin{cases} \dot{x}=H_y(x,y,\lambda) \\ \dot{y}=-H_x(x,y,\lambda) \end{cases}$$
@@ -42,34 +42,34 @@ $$\lambda \coloneqq (A_1,B_1,B_2)$$
 
 
 
->$\text{Definition 2 : }(\Sigma, \Sigma_1,\Sigma_2)$
->$\text{Given a }singular \; \lambda = (A_1,B_1,B_2)$
->$\text{We define :}$
->$\mathrm{i.}\; \lambda \in \Sigma_1 \iff H(x,y,\lambda) \text{ is in }\color{blue}{\text{CASE } \mathrm{I}}$
->$\mathrm{ii.}\; \lambda \in \Sigma_2 \iff H(x,y,\lambda) \text{ is in }\color{blue}{\text{CASE } \mathrm{II}}$
->$\mathrm{iii.} \; \Sigma \coloneqq \Sigma_1 \cup \Sigma_2$
->$\color{green}{\text{We call : }\mathrm{i.}\;\Sigma_1  \; caustic}$
->$\color{green}{\text{We call : }\mathrm{ii.}\; \Sigma_2 \; Maxwell \;stratum}$
->$\color{green}{\text{We call : }\mathrm{iii.}\; \Sigma \text{ the bifurcation diagram of the family of }H(x,y,\lambda)}$
+>$\text{Definition 2 : }(\Sigma, \Sigma_1,\Sigma_2)$  
+>$\text{Given a }singular \; \lambda = (A_1,B_1,B_2)$  
+>$\text{We define :}$  
+>$\mathrm{i.}\; \lambda \in \Sigma_1 \iff H(x,y,\lambda) \text{ is in }\color{blue}{\text{CASE } \mathrm{I}}$  
+>$\mathrm{ii.}\; \lambda \in \Sigma_2 \iff H(x,y,\lambda) \text{ is in }\color{blue}{\text{CASE } \mathrm{II}}$  
+>$\mathrm{iii.} \; \Sigma \coloneqq \Sigma_1 \cup \Sigma_2$  
+>$\color{green}{\text{We call : }\mathrm{i.}\;\Sigma_1  \; caustic}$  
+>$\color{green}{\text{We call : }\mathrm{ii.}\; \Sigma_2 \; Maxwell \;stratum}$  
+>$\color{green}{\text{We call : }\mathrm{iii.}\; \Sigma \text{ the bifurcation diagram of the family of }H(x,y,\lambda)}$  
 
-$\text{Example : }$
-$\text{Consider } H(x) = x^4+\lambda_1x^2 + \lambda_2x$
-$\text{How to draw }\Sigma \; ?$
-$\mathrm{I.}(\text{About }\Sigma_1):$
+$\text{Example : }$  
+$\text{Consider } H(x) = x^4+\lambda_1x^2 + \lambda_2x$  
+$\text{How to draw }\Sigma \; ?$  
+$\color{red}{\mathrm{I.}(\text{About }\Sigma_1):}$  
 $$\text{ let } \begin{cases} H_x = 4x^4+2\lambda_1x+\lambda_2 = 0 \\ H_{xx}= 12x^2+2\lambda_1=0 \end{cases}$$
 $\overset{\text{Solve this }}{\Rightarrow}$
 $$\begin{cases} \lambda_1 = -6x^2 \\ \lambda_2 = 8x^3 \end{cases}$$
 $\text{This is a parameter equation about }x$
-$\text{Then we can draw }\Sigma_1 \text{in }\lambda_1 \text{ axis and }\lambda_2\text{ axis !}$
-$\mathrm{II.}(\text{About }\Sigma_2 ):$
-$\text{Suppose }x_a \text{ and } x_b$
+$\text{Then we can draw }\Sigma_1 \text{in }\lambda_1 \text{ axis and }\lambda_2\text{ axis !}$  
+$\color{red}{\mathrm{II.}(\text{About }\Sigma_2):}$  
+$\text{Suppose }x_a \text{ and } x_b$  
 $$\text{let}\begin{cases} 4x_a^3+2\lambda_1x_a+\lambda_2=0 \\ 4x_b^3+2\lambda_1x_b+\lambda_2=0 \\ x_a^4+\lambda_1x_a^2+\lambda_2x_a = x_b^4+\lambda_1x_b^2+\lambda_2x_b \end{cases}$$
 $\overset{\text{Solve it }}{\Rightarrow}$
 $$\begin{cases} \lambda_1 <0 \\ \lambda_2=0\end{cases}$$
-$\text{Then we can draw }\Sigma_2 \text{in }\lambda_1 \text{ axis and }\lambda_2\text{ axis !}$
+$\text{Then we can draw }\Sigma_2 \text{in }\lambda_1 \text{ axis and }\lambda_2\text{ axis !}$  
 $\text{Therefore , the graph of }\Sigma=\Sigma_1 \cup \Sigma_2 \text{ is done !}$
 
-$\color{green}{\text{Remark :(small trick)}}$
+$\color{green}{\text{Remark :(small trick)}}$  
 $\color{green}{\text{Let }C_1=0\text{ and let }C_1=1}$
 
 ## $\color{purple}{\text{Part Three : Problem } }$
