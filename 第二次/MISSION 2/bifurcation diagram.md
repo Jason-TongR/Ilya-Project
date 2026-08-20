@@ -93,7 +93,97 @@ $\overset{\text{Cancel out the }x_0,y_0 }{\Rightarrow}$
 $$
 \color{red}{A_1^4 + 8 A_1^3 B_1 + 18 A_1^2 B_1^2 - 27 B_1^4 + 18 A_1^2 B_2^2 - 54 B_1^2 B_2^2 - 27 B_2^4=0} \tag{*}
 $$  
-$\text{We draw the graph of (*) and get :}$  
+$\text{We draw the graph of (*) and get the graph of }\Sigma_1 :$  
+![Sigma_1](Sigma_1.jpg)
+### $\color{red}{\text{Step 3 : draw the graph of }\Sigma_2}$  
+$\text{By the definiton of }\Sigma_2:$  
+$$
+H(x,y,\lambda)\text{ has two diffenent critical points }(x_1,y_1),(x_2,y_2)\text{s.t }H(x_1,y_1,\lambda)=H(x_2,y_2,\lambda)
+$$  
+$\text{That is :}$  
+$$
+\begin{cases}
+    H_x(x_1,y_1,\lambda)=0 \\
+    H_x(x_2,y_2,\lambda)=0 \\
+    H_y(x_1,y_2,\lambda)=0 \\
+    H_y(x_2,y_2,\lambda)=0 \\
+    H(x_1,y_1,\lambda)=H(x_2,y_2,\lambda)
+\end{cases}
+$$  
+$\text{Since we have compute }H_x , H_y\text{ before , So that is :}$  
+$$
+\begin{cases}
+    (H_x):0=-x_1-B_2x_1^2+B_2y_1^2-2(A_1-B_1)x_1y_1 \\
+    (H_x):0=-x_2-B_2x_2^2+B_2y_2^2-2(A_1-B_1)x_2y_2 \\
+    (H_y):0=-y_1+(B_1-A_1)x_1^2+(-B_1-3A_1)y_1^2+2B_2x_1y_1 \\
+    (H_y):0=-y_2+(B_1-A_1)x_2^2+(-B_1-3A_1)y_2^2+2B_2x_2y_2 \\
+    (H):-\frac{1}{2}(x_1^2+y_1^2)+(B_1-A_1)x_1^2y_1-(\frac{B_1}{3}+A_1)y_1^3+B_2x_1y_1^2 -\frac{B_2}{3}x_1^3 \\
+    \qquad =-\frac{1}{2}(x_2^2+y_2^2)+(B_1-A_1)x_2^2y_2-(\frac{B_1}{3}+A_1)y_2^3+B_2x_2y_2^2 -\frac{B_2}{3}x_2^3
+\end{cases}
+$$  
+$\overset{\text{Cancel out the }x_1,y_1,x_2,y_2}{\Rightarrow}$  
+$$
+\color{red}{A_1B_2=0} \tag{**}
+$$  
+$\text{We draw the graph of (**) and get the graph of }\Sigma_2: $  
+![$\Sigma_2$](Sigma_2.jpg)
+### $\color{red}{\text{Step 3 : draw the graph of }\Sigma}$  
+$\text{By the definition of }\Sigma:$  
+$$
+\Sigma \coloneqq \Sigma_1 \cup \Sigma_2
+$$  
+$\text{Therefore , the graph of }\Sigma \text{ is the union of }\Sigma_1\text{(red) and } \Sigma_2 \text{(blue) , that is :}$  
+![$\Sigma$](Sigma.jpg)
+## $\color{purple}{\text{Part }\mathrm{III.}\text{ Remarks}}$  
+$\text{Actually , it is difficult to get the result of (*) and (**)}$  
+$\text{So , I use the }Mathematica\text{ to solve it and get the result of (*) and (**)}$  
+$\text{The following are the code of getting (*) and (**) :}$  
+### $\color{red}{\text{The code of get (*) :}}$  
+```wl
+INPUT :
+    
+    ClearAll["Global`*"]
+
+    H[x_, y_, A1_, B1_, B2_] := -1/2 (x^2 + y^2) - 1/3 B2 x^3 + B2 x y^2 + (B1 - A1) x^2 y - (B1 + 3 A1)/3 y^3;
+
+    eqs = {
+    D[H[x, y, A1, B1, B2], x] == 0,
+    D[H[x, y, A1, B1, B2], y] == 0,
+    Det[D[H[x, y, A1, B1, B2], {{x, y}, 2}]] == 0
+    };
+
+    GroebnerBasis[eqs, {A1, B1, B2}, {x, y}]
+
+OUTPUT :
+
+    {A1^4 + 8 A1^3 B1 + 18 A1^2 B1^2 - 27 B1^4 + 18 A1^2 B2^2 - 54 B1^2 B2^2 - 27 B2^4}
+```
+### $\color{red}{\text{The code of get (**) :}}$  
+```wl
+INPUT :
+
+    ClearAll["Global`*"]
+
+    H[x_, y_, A1_, B1_, B2_] := -1/2 (x^2 + y^2) - 1/3 B2 x^3 + B2 x y^2 + (B1 - A1) x^2 y - (B1 + 3 A1)/3 y^3;
+
+    grad[x_, y_, A1_, B1_, B2_] := {D[H[x, y, A1, B1, B2 ], x], D[H[x, y, A1, B1, B2 ], y]};
+
+    eqsSigma2 = {grad[x1, y1, A1, B1, B2][[1]] == 0, 
+    grad[x1, y1, A1, B1, B2][[2]] == 0, 
+    grad[x2, y2, A1, B1, B2][[1]] == 0, 
+    grad[x2, y2, A1, B1, B2][[2]] == 0, 
+    H[x1, y1, A1, B1, B2] - H[x2, y2, A1, B1, B2] == 0, 
+    t ((x1 - x2)^2 + (y1 - y2)^2) - 1 == 0};
+
+    GroebnerBasis[eqsSigma2, {A1, B1, B2}, {x1, y1, x2, y2, t}]
+
+OUTPUT :
+
+    {A1 B2}
+```
+
+
+
 
 
 
