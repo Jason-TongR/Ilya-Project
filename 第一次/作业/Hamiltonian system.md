@@ -68,31 +68,33 @@
     >$\text{We need to introduce some definitions first :}$
 
 
-    >$\text{Definiton 1} (1-form):$
-    We say that $w$ is a $1-form \;\text{if } w = A(x,y)dx + B(x,y)dy \;    \\where \;A , B : \mathbb{R}^2 \rightarrow \mathbb{R}$ are fucntions.
+    >$\text{Definiton 1} (1-form):$  
+    We say that $w$ is a $1-form \;\text{if } w = A(x,y)dx + B(x,y)dy \;  \\ where \;A , B : \mathbb{R}^2 \rightarrow \mathbb{R}$ are fucntions.
 
 
-    >$\text{Definiton 2}(Exact \; form):$
-    Given a $1-form \; w = A(x,y)dx+B(x,y)dy  $
-    we say $w$ is $exact\;\text{ if }\; w=dH \; for\;some \;H$
-    Where $dH \coloneqq \frac{\partial H}{\partial x}dx + \frac{\partial H}{\partial y}dy$
+    >$\text{Definiton 2}(Exact \; form):$  
+    Given a $1-form \; w = A(x,y)dx+B(x,y)dy  $  
+    we say $w$ is $exact\;\text{ if }\; w=dH \; for\;some \;H$  
+    Where $dH \coloneqq \frac{\partial H}{\partial x}dx + \frac{\partial H}{\partial y}dy$  
 
-    >$\text{Definiton 3}(Closed \; form):$
+    >$\text{Definiton 3}(Closed \; form):$  
     Given a $1-form \; w = A(x,y)dx+B(x,y)dy$ we say that $w$ is closed
-    $\text{if}$
-    $dw = 0 \\(\text{where }dw \coloneqq dA \wedge dx + dB\wedge dy = (A_xdx + A_ydy)\wedge dx + (B_xdx+B_ydy)\wedge dy = (B_x-A_y)dx\wedge dy)$
+    $\text{if}$  
+    $dw = 0 \\ (\text{where }dw \coloneqq dA \wedge dx + dB\wedge dy = (A_xdx + A_ydy)\wedge dx + (B_xdx+B_ydy)\wedge dy = (B_x-A_y)dx\wedge dy)$  
 
-    >$\text{Theorem}(Poincare\;lemma):$
-    Given a $1-form\;w\coloneqq A(x,y)dx + B(x,y)dy$ and the domain of $A,B$ are simply connected.
-    Then
-    $w\text{ is } exact \iff w \text{ is } closed$
+    >$\text{Theorem}(Poincare\;lemma):$  
+    Given a $1-form\;w\coloneqq A(x,y)dx + B(x,y)dy$ and the domain of $A,B$ are simply connected.  
+    Then  
+    $w\text{ is } exact \iff w \text{ is } closed$  
 
-    Now back to our proof, We have the hypothesis that $divV = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} = 0$
-    We want to find $H \text{ such that } H_y=P \text{ and } -H_x=Q.$
+    Now back to our proof, We have the hypothesis that $divV = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y} = 0$  
+    We want to find $H \text{ such that } H_y=P \text{ and } -H_x=Q.$  
 
-    $\text{Since } dH = H_xdx + H_ydy = -Qdx + Pdy $
-    $$\text{So } \exists H \iff w \coloneqq -Qdx+Pdy \text{ is } exact \tag{*} $$
-    $\text{Now compute } dw:\\w \coloneqq -Qdx+Pdy \Rightarrow dw= (P_x + Q_y)dx\wedge dy \overset{\text{hypothesis}}{=} 0dx\wedge dy = 0\\ \text{So } w \text{ is } closed \\ \text{by } Poincare \; lemma \text{ , we konw that }w \text{ is } exact \text{ , then by } (*) \text{ we konw that } \exists H$
+    $\text{Since } dH = H_xdx + H_ydy = -Qdx + Pdy $  
+    $$
+    \text{So } \exists H \iff w \coloneqq -Qdx+Pdy \text{ is } exact \tag{*} 
+    $$  
+    $\text{Now compute } dw:\\ w \coloneqq -Qdx+Pdy \Rightarrow dw= (P_x + Q_y)dx\wedge dy \overset{\text{hypothesis}}{=} 0dx\wedge dy = 0\\ \text{So } w \text{ is } closed \\ \text{by } Poincare \; lemma \text{ , we konw that }w \text{ is } exact \text{ , then by } (*) \text{ we konw that } \exists H$
     That is , the system is $Hamiltonian.$ 
     $\square$
 - ### Answer of Question 2 :
@@ -133,7 +135,7 @@
     $$\begin{cases}
         2A_1=-C_1\\
         2A_2=C_2
-    \end{cases}$$
+    \end{cases}$$ 
     $\text{That is :}$
     $$2A=-\bar{C} \\B \text{ is free}$$
     $\square$
