@@ -33,7 +33,7 @@
     >C \coloneqq C_1 + iC_2\\
     >\mu \coloneqq (A_1,A_2,B_1,B_2,C_1,C_2)
     >$$
-    >Find the condition of $\mu$ such that $\tilde{A}$ is a >$Hamiltonian \; system.$
+    >Find the condition of $\mu$ such that $\tilde{A}$ is a $Hamiltonian \; system.$
 
 
 *********
