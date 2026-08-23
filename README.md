@@ -9,5 +9,5 @@
 
 |Number of group meetings|Date of group meetings|Related Content|Homework|Portal link|
 |:---|:---|:-----|:----|:------|
-|First time|2026.8.7|Hamiltonian system|$\mathrm{I.}$Prove that Hamiltonian system $\iff divV = 0$<br>$\mathrm{II.}$ Find the condition of Hamiltonian system(complex form)|[Click Me!](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BB%84%E4%BC%9A)|
+|First time|2026.8.7|Hamiltonian system|$\mathrm{I.}$ Prove that Hamiltonian system $\iff divV = 0$<br>$\mathrm{II.}$ Find the condition of Hamiltonian system(complex form)|[Click Me!](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 |Second time|2026.8.17|Bifurcation diagram|Find the bifurcation diagram of Hamiltonian system(complex form)|[Click Me!](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%BB%84%E4%BC%9A)|
