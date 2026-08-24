@@ -1,0 +1,14 @@
+> [!important]
+> **首先，請點擊您使用的語言： [English](README_EN.md) [简体中文](README.md) [繁體中文](README_TCN.md)**
+
+# Ilya Project
+
+**這是 Ilya 專案的儲存庫，用於以 Markdown 格式儲存一些數學證明。**
+
+**********
+*相關內容如下：*
+
+| 組會次數 | 組會日期   | 相關內容       | 作業                                                                                                                                                     | 傳送門連結 |
+|:------|:-------|:-------|:--------|:-------|
+| 第一次   | 2026.8.7  | 哈密頓系統    | $\mathrm{I.}$ 證明哈密頓系統 $\iff divV = 0$<br>$\mathrm{II.}$ 找出哈密頓系統（複數形式）的條件                                                          | [點我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BB%84%E4%BC%9A) |
+| 第二次   | 2026.8.17 | 分岔圖       | 找出哈密頓系統（複數形式）的分岔圖                                                                                                                         | [點我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%BB%84%E4%BC%9A) |

@@ -1,5 +1,5 @@
 >[!important]
->**First of all , please click the language that you use: [English](README_EN.md) [简体中文](README.md)**
+>**First of all , please click the language that you use: [English](README_EN.md) [简体中文](README.md) [繁體中文](README_TCN.md)**
 
 # Ilya Project
 
