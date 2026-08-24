@@ -13,3 +13,4 @@
 |:---|:---|:-----|:----|:------|
 |第一次|2026.8.7|Hamiltonian system|$\mathrm{I.}$证明Hamiltonian system $\iff divV = 0$<br>$\mathrm{II.}$ 找出Hamiltonian system(complex form)的条件|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 |第二次|2026.8.17|Bifurcation diagram|找出Hamiltonian system(complex form) 的 bifurcation diagram|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%BB%84%E4%BC%9A)|
+|第三次|2026.8.24|1.Fix $\Sigma_2$<br>2.first integral|$\mathrm{I.}\Sigma_2$ 可能有误，再努力找找<br>$\mathrm{II.}$对于symmetic system,找出他的first integral|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%89%E6%AC%A1%E7%BB%84%E4%BC%9A)
