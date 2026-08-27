@@ -246,78 +246,80 @@ $\text{Where :} \begin{cases}
 $h'(\tilde{\theta})=0 \overset{R>0}{\Rightarrow} \cos(3\tilde{\theta} -\phi)=0 \Rightarrow 3\tilde{\theta} - \phi = \frac{\pi}{2}+k\pi \text{ where }k \in \mathbb{Z}$  
 $\Rightarrow h(\tilde{\theta})=\frac{R}{3}\sin(3\tilde{\theta} - \phi)=\frac{R}{3}\sin(\frac{\pi}{2}+k\pi)=\frac{R}{3}(-1)^k$  
 $\Rightarrow h(\theta)= \begin{cases}
-    \frac{R}{3} \text{   when }k \text{ is even}  \\
-    -\frac{R}{3} \text{   when }k \text{ is odd}
+    \frac{R}{3} & \text{when }k \text{ is even}  \\
+    -\frac{R}{3} & \text{when }k \text{ is odd}
 \end{cases}$  
 $\text{But }h'(\tilde{\theta})=0 \text{ has 6 solutions in }[0,2\pi) \text{ , 3 correspond to }k \text{ even , 3 correspond to }k \text{ odd}$  
 $\text{So we just need to take two of k that k even.}$  
 $\text{This tell us that (**) always has solution when }A_1=0.$  
 $\text{So the plane }A_1=0 \text{ is all ok !}$  
 - $\color{blue}{\text{CASE }\mathrm{II} \text{ : }B_2=0}$  
-$\text{Then :} \begin{cases}
+  $\text{Then :} \begin{cases}
     h(\theta) = -A_1\sin(\theta) +\frac{B_1}{3}\sin(3\theta)    \\
     h'(\theta) = -A_1\cos(\theta) +\frac{B_1}{3}\cos(3\theta) \overset{\text{Simplify}}{=} \cos(\theta)(4B_1\cos^2(\theta)-(A_1+3B_1))
-\end{cases}$  
-$\text{So , }h'(\tilde{\theta})=0 \iff \cos(\tilde{\theta})=0 \text{ or } (4B_1\cos^2(\tilde{\theta})-(A_1+3B_1))=0$  
-$\color{green}{\text{If }\cos(\tilde{\theta})=0 :}$  
-$\Rightarrow \tilde{\theta} = \frac{\pi}{2} \text{ or }\frac{3\pi}{2}$  
-$\text{But }h(\frac{\pi}{2})=h(\frac{3\pi}{2})>0 \text{ is imposible}$  
-$\text{Because }h(\frac{\pi}{2}) = -A_1-\frac{B_1}{3} , h(\frac{3\pi}{2})=A_1+\frac{B_1}{3}$  
-$\Rightarrow 0=A_1+\frac{B_1}{3}>0 \text{ , contradition ! So in this subcase , no solution}$  
-$\color{green}{\text{If }(4B_1\cos^2(\tilde{\theta})-(A_1+3B_1))=0 :}$  
-$\text{We have }B_1 \neq 0 (\text{ if } B_1=0 \overset{\text{subcase}}{\Rightarrow} A_1=0 \Rightarrow A_1,B_1,B_2 =0 \text{ it is the trival case})$  
-$\text{So we have }B_1 \neq 0$  
-$\Rightarrow$  
-$$
-\cos^2(\tilde{\theta})=\frac{A_1+3B_1}{4B_1}
-$$  
-$\Rightarrow$  
-$$
- 0 \le \frac{A_1+3B_1}{4B_1} \le 1
-$$  
-$\color{green}{\text{If }\frac{A_1+3B_1}{4B_1}=0 :}$  
-$\Rightarrow \cos^2(\tilde{\theta})=0 \Rightarrow \tilde{\theta} = \frac{\pi}{2} \text{ or }\frac{3\pi}{2} \text{. It is the case above , impossible !}$  
-$\text{So , }0 < \frac{A_1+3B_1}{4B_1}$  
-$\color{green}{\text{If }\frac{A_1+3B_1}{4B_1}=1 :}$  
-$\Rightarrow \cos^2(\tilde{\theta})=1 \Rightarrow \tilde{\theta} = 0 \text{ or } \pi , \text{ But }h(0)=h(\pi)=0 \not> 0 , \text{ impossible !}$  
-$\text{So , }\frac{A_1+3B_1}{4B_1} < 1$  
-$\text{Therefore , }$  
-$$
-0<\frac{A_1+3B_1}{4B_1}<1
-$$    
-$\text{Now , let }t \coloneqq \cos(\tilde{\theta})$  
-$\text{Then :} t^2 = \frac{A_1+3B_1}{4B_1}$  
-$\text{So , }$  
-$h(\tilde{\theta}) = -A_1\sin(\tilde{\theta})+\frac{B_1}{3}\sin(3\tilde{\theta})$  
-$=-A_1\sin(\tilde{\theta})+\frac{B_1}{3}(3\sin(\tilde{\theta})-4\sin^3(\tilde{\theta}))$  
-$=-A_1\sin(\tilde{\theta})+\frac{B_1}{3}(\sin(\tilde{\theta})(4\cos^2(\tilde{\theta})-1))$  
-$=-A_1\sin(\tilde{\theta})+\frac{B_1}{3}(\sin(\tilde{\theta})(4t^2-1))$  
-$=\sin(\tilde{\theta})(-A_1+\frac{B_1}{3}(4t^2-1))$  
-$=\sin(\tilde{\theta})(-A_1+\frac{B_1}{3}(\frac{A_1+2B_1}{B_1}))$  
-$=\sin(\tilde{\theta})(-A_1+\frac{A_1+2B_1}{3})$  
-$=\frac{2}{3}(B_1-A_1)\sin(\tilde{\theta})$  
-$\text{Now , consider the equation :}$  
-$$
-\cos^2(\tilde{\theta})=\frac{A_1+3B_1}{4B_1}
-$$  
-$\tilde{\theta} \text{ has 4 solutions in }[0,\pi) \text{ , 2 of them has }\sin >0 \text{ , 2 of them has } \sin <0$  
-$\text{Thus , } \begin{cases}
-    \text{If }(B_1-A_1)>0 \text{ choose the first 2 of them.}   \\
-    \text{If }(B_1-A_1)<0 \text{ choose the second 2 of them.}
-\end{cases}$  
-$\color{red}{\text{It tell us that : }}$  
-$$
-\color{red}{0<\frac{A_1+3B_1}{4B_1}<1 \Rightarrow \text{(**) always has solutions !}}
-$$
-$\text{To simplify it :}$  
-$$
-  0<\frac{A_1+3B_1}{4B_1}<1 \iff (A_1+3B_1)(A_1-B_1)<0
-$$
+  \end{cases}$  
+  $\text{So , }h'(\tilde{\theta})=0 \iff \cos(\tilde{\theta})=0 \text{ or } (4B_1\cos^2(\tilde{\theta})-(A_1+3B_1))=0$  
+  $\color{green}{\text{If }\cos(\tilde{\theta})=0 :}$  
+  $\Rightarrow \tilde{\theta} = \frac{\pi}{2} \text{ or }\frac{3\pi}{2}$  
+  $\text{But }h(\frac{\pi}{2})=h(\frac{3\pi}{2})>0 \text{ is imposible}$  
+  $\text{Because }h(\frac{\pi}{2}) = -A_1-\frac{B_1}{3} , h(\frac{3\pi}{2})=A_1+\frac{B_1}{3}$  
+  $\Rightarrow 0=A_1+\frac{B_1}{3}>0 \text{ , contradition ! So in this subcase , no solution}$  
+  $\color{green}{\text{If }(4B_1\cos^2(\tilde{\theta})-(A_1+3B_1))=0 :}$  
+  $\text{We have }B_1 \neq 0 (\text{ if } B_1=0 \overset{\text{subcase}}{\Rightarrow} A_1=0 \Rightarrow A_1,B_1,B_2 =0 \text{ it is the trival case})$  
+  $\text{So we have }B_1 \neq 0$  
+  $\Rightarrow$  
+  $$
+  \cos^2(\tilde{\theta})=\frac{A_1+3B_1}{4B_1}
+  $$  
+  $\Rightarrow$  
+  $$
+  0 \le \frac{A_1+3B_1}{4B_1} \le 1
+  $$  
+  $\color{green}{\text{If }\frac{A_1+3B_1}{4B_1}=0 :}$  
+  $\Rightarrow \cos^2(\tilde{\theta})=0 \Rightarrow \tilde{\theta} = \frac{\pi}{2} \text{ or }\frac{3\pi}{2} \text{. It is the case above , impossible !}$  
+  $\text{So , }0 < \frac{A_1+3B_1}{4B_1}$  
+  $\color{green}{\text{If }\frac{A_1+3B_1}{4B_1}=1 :}$  
+  $\Rightarrow \cos^2(\tilde{\theta})=1 \Rightarrow \tilde{\theta} = 0 \text{ or } \pi , \text{ But }h(0)=h(\pi)=0 \not> 0 , \text{ impossible !}$  
+  $\text{So , }\frac{A_1+3B_1}{4B_1} < 1$  
+  $\text{Therefore , }$  
+  $$
+  0<\frac{A_1+3B_1}{4B_1}<1
+  $$  
+  $\text{Now , let }t \coloneqq \cos(\tilde{\theta})$  
+  $\text{Then :} t^2 = \frac{A_1+3B_1}{4B_1}$  
+  $\text{So , }$  
+  $h(\tilde{\theta}) = -A_1\sin(\tilde{\theta})+\frac{B_1}{3}\sin(3\tilde{\theta})$  
+  $=-A_1\sin(\tilde{\theta})+\frac{B_1}{3}(3\sin(\tilde{\theta})-4\sin^3(\tilde{\theta}))$  
+  $=-A_1\sin(\tilde{\theta})+\frac{B_1}{3}(\sin(\tilde{\theta})(4\cos^2(\tilde{\theta})-1))$  
+  $=-A_1\sin(\tilde{\theta})+\frac{B_1}{3}(\sin(\tilde{\theta})(4t^2-1))$  
+  $=\sin(\tilde{\theta})(-A_1+\frac{B_1}{3}(4t^2-1))$  
+  $=\sin(\tilde{\theta})(-A_1+\frac{B_1}{3}(\frac{A_1+2B_1}{B_1}))$  
+  $=\sin(\tilde{\theta})(-A_1+\frac{A_1+2B_1}{3})$  
+  $=\frac{2}{3}(B_1-A_1)\sin(\tilde{\theta})$  
+  $\text{Now , consider the equation :}$  
+  $$
+  \cos^2(\tilde{\theta})=\frac{A_1+3B_1}{4B_1}
+  $$  
+  $\tilde{\theta} \text{ has 4 solutions in }[0,\pi) \text{ , 2 of them has }\sin >0 \text{ , 2 of them has } \sin <0$  
+  $\text{Thus , } \begin{cases}
+      \text{If }(B_1-A_1)>0 & \text{ choose the first 2 of them.}   \\
+      \text{If }(B_1-A_1)<0 & \text{ choose the second 2 of them.}
+  \end{cases}$  
+  $\color{red}{\text{It tell us that : }}$  
+  $$
+  \color{red}{0<\frac{A_1+3B_1}{4B_1}<1 \Rightarrow \text{(**) always has solutions !}}
+  $$  
+  $\text{To simplify it :}$  
+  $$
+    0<\frac{A_1+3B_1}{4B_1}<1 \iff (A_1+3B_1)(A_1-B_1)<0
+  $$  
 $\text{Therefore , conclude two CASES. The bifurcation diagram of }\Sigma_2 \text{ is :}$  
 $$
-    \color{red}{A_1=0 \text{ or } (B_2=0,(A_1-B_1)(A_1+3B_1)<0)}
-$$
-$\blacksquare$
+  \color{red}{A_1=0 \text{ or } (B_2=0,(A_1-B_1)(A_1+3B_1)<0)}
+$$  
+$\blacksquare$  
+
+
 >$\text{The graph of }\Sigma_2 \text{ is as follow} :$   
 >![$\Sigma_2$](Sigma_2.png)
 >$\text{The graph of }\Sigma \text{ is as follow} :$  
@@ -337,6 +339,104 @@ $\text{We know that the Hamiltonian function }H(x,y) \text{ is a first integral}
 $\text{So , }$  
 $\text{in this case the answer is the Hamiltonian function } H(x,y)=I(x,y)$    
 $\color{blue}{\text{CASE }\mathrm{II:}A \text{ is not a Hamiltonian system}}$  
+$\text{Suppose our system is :}$  
+$$
+A: \dot{z}=iz+Az^2+B\bar{z}^2+Cz\bar{z}
+$$  
+$\text{Where }A,B,B \in \mathbb{C}$  
+$\text{Write }A \text{ into original form :}$  
+$$
+\begin{cases}
+    \dot{x}=P(x,y)=-y+A_1(x^2-y^2)-2xyA_2+B_1(x^2-y^2)+2xyB_2+C_1(x^2+y^2)  \\
+    \dot{y}=Q(x,y)=x+2xyA_1+A_2(x^2-y^2)-2xyB_1+B_2(x^2-y^2)+C_2(x^2+y^2)
+\end{cases}
+$$  
+$\text{Since }A \text{ is symmetic , which means }P \text{is even and }Q \text{ is odd.}$  
+$\text{Then , we have :}$  
+$$
+\begin{cases}
+    A_2=0   \\
+    B_2=0   \\
+    C_2=0   
+\end{cases}
+$$  
+$\color{red}{\text{This tell us an important fact that :}}$  
+$$
+\color{red}{\text{Without losing generality , we can assume }A,B,C \in \mathbb{R}}
+$$  
+$\text{Then , our system }A \text{ becomes :}$  
+$$
+A: \begin{cases}
+    \dot{x}=P(x,y)=-y+(A+B+C)x^2+(C-A-B)y^2     \\
+    \dot{y}=Q(x,y)=x+2(A-B)xy
+\end{cases}
+$$  
+$\text{and since our hypothesis is }A \text{ is not Hamilitonian , so :}$  
+$$
+2A+C \neq 0
+$$  
+$\text{Now , we are going to solve the system }A$  
+$\text{Let }u \coloneqq x^2$  
+$\Rightarrow \dot{u}=2x\dot{x}$  
+$\Rightarrow$    
+$$
+A: \begin{cases}
+    \dot{u}=2x(-y+(A+B+C)u+(C-A-B)y^2)  \\
+    \dot{y}=x(1+2(A-B)y)
+\end{cases}
+$$  
+#### $\color{blue}{\text{CASE 1 : If }x=0}$  
+$\text{Then we have the trivial sulotion : }$  
+$$
+(x,y)=(0,0)
+$$  
+#### $\color{blue}{\text{CASE 1 : If }x \neq 0}$  
+$\Rightarrow$  
+$$
+\frac{du}{dy}=\frac{2(-y+(A+B+C)u+(C-A-B)y^2)}{1+2(A-B)y}
+$$  
+$\iff$  
+$$
+u'+(\frac{-2(A+B+C)}{1+2(A-B)y})u=\frac{2(C-A-B)y^2-2y}{1+2(A-B)y}
+$$  
+$\text{This is the one order non homougenous ODE :}$  
+$$
+u'+p(y)u=q(y) \tag{***}
+$$  
+$\text{with }$  
+$$
+\begin{cases}
+    p(y)=(\frac{-2(A+B+C)}{1+2(A-B)y})  \\
+    q(y)=\frac{2(C-A-B)y^2-2y}{1+2(A-B)y}
+\end{cases}
+$$  
+$\text{We can solve it by using integral factor :}$  
+$$
+\mu(y) \coloneqq e^{\int p(y) dy}=e^{\int (\frac{-2(A+B+C)}{1+2(A-B)y}) dy}
+$$  
+$\text{After solving (***) , We get the first integral are :}$  
+$$
+\color{red}{I(x,y)=\begin{cases}
+    e^{-2Ky}(x^2+\frac{E}{K}y^2+(\frac{E}{K^2}-\frac{1}{K})y+\frac{E}{2K^3}-\frac{1}{2K^2}) & When D=0 \\
+    (1+2Dy)^{-\frac{K}{D}}(x^2-\frac{E(1+2Dy)^2}{4D^2(2D-K)}+\frac{(E+D)(1+2Dy)}{2D^2(D-K)}+\frac{E+2D}{4D^2K}) & When D \neq 0 , K \neq 0 , K \neq D , K \neq 2D \\
+    x^2 - \frac{1}{4D^3}(\frac{E}{2}(1+2Dy)^2-2(E+D)(1+2Dy)+(E+2D)\ln \left|1+2Dy\right|) & When D \neq 0 ,K=0 \\
+    \frac{x^2}{1+2Dy}-\frac{1}{4D^3}(E(1+2Dy)-2(E+D)\ln \left|1+2Dy\right| -\frac{E+2D}{1+2Dy}) & When D \neq 0 , K=D  \\
+    \frac{x^2}{(1+2Dy)^2}-\frac{1}{4D^3}(E \ln \left|1+2Dy \right| + \frac{2(E+D)}{1+2Dy}-\frac{E+2D}{2(1+2Dy)^2})  & When D \neq 0 , K=2D
+\end{cases}}
+$$  
+$\color{red}{\text{Where :}}$  
+$$
+\color{red}{\begin{cases}
+    D \coloneqq A-B     \\
+    K \coloneqq A+B+C   \\
+    E \coloneqq C-A-B
+\end{cases}}
+$$  
+$\text{Done.}$
+
+
+
+
 
 
 
