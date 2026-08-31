@@ -1,21 +1,20 @@
 >[!Important]
->**首先，请先点击你使用的语言: [English](README_EN.md) [简体中文](README.md) [繁體中文](README_TCN.md)**
-
+>**First, please click the language you are using: [English](README.md) [简体中文](README_CN.md) [繁體中文](README_TCN.md)**
 
 # Ilya Project
 
-**这是一个用来存放有关Ilay Project相关的内容的一个仓库**
+**This is a repository for storing content related to the Ilya Project.**
 
 **********
-*相关的内容如下：*
+*The relevant content is as follows:*
 
-|组会次数|组会日期|相关内容|作业任务|传送门链接|
+|Group meeting count|Group meeting date|Related content|Assignment task|Portal link|
 |:---|:---|:-----|:----|:------|
-|第一次|2026.8.7|Hamiltonian system|$\mathrm{I.}$证明Hamiltonian system $\iff divV = 0$<br>$\mathrm{II.}$ 找出Hamiltonian system(complex form)的条件|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BB%84%E4%BC%9A)|
-|第二次|2026.8.17|Bifurcation diagram|找出Hamiltonian system(complex form) 的 bifurcation diagram|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%BB%84%E4%BC%9A)|
-|第三次|2026.8.24|1.Fix $\Sigma_2$<br>2.first integral|$\mathrm{I.}$学习 $D_4^-(pyramid)$ 的bifurcation diagram<br>$\mathrm{II.}\Sigma_2$ 可能有误，再努力找找<br>$\mathrm{III.}$对于symmetic system,找出他的first integral|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%89%E6%AC%A1%E7%BB%84%E4%BC%9A)
+|First|2026.8.7|Hamiltonian system|$\mathrm{I.}$ Prove Hamiltonian system $\iff divV = 0$<br>$\mathrm{II.}$ Find the condition for the Hamiltonian system (complex form)|[Click Me!](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BB%84%E4%BC%9A)|
+|Second|2026.8.17|Bifurcation diagram|Find the bifurcation diagram of the Hamiltonian system (complex form)|[Click Me!](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%BB%84%E4%BC%9A)|
+|Third|2026.8.24|1.Fix $\Sigma_2$<br>2.first integral|$\mathrm{I.}$ Study the bifurcation diagram of $D_4^-$(pyramid)<br>$\mathrm{II.}$ $\Sigma_2$ may be incorrect; keep trying to find it<br>$\mathrm{III.}$ For the symmetric system, find its first integral|[Click Me!](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%89%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 
 ******
 >[!Note]
->**一些小说明 :**
->如果您想对于我的markdown文件获得最佳体验，请在Vs Code中使用`Markdown Preview Enhanced`插件进行预览。
+>**Some notes:**
+>If you want the best experience previewing my markdown files, please use the `Markdown Preview Enhanced` extension in VS Code to preview.
