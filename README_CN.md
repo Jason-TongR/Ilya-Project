@@ -12,8 +12,9 @@
 |:---|:---|:-----|:----|:------|
 |第一次|2026.8.7|Hamiltonian system|$\mathrm{I.}$ 证明 Hamiltonian system $\iff divV = 0$<br>$\mathrm{II.}$ 找出 Hamiltonian system (complex form) 的条件|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 |第二次|2026.8.17|Bifurcation diagram|找出 Hamiltonian system (complex form) 的 bifurcation diagram|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%BA%8C%E6%AC%A1%E7%BB%84%E4%BC%9A)|
-|第三次|2026.8.24|1.Fix $\Sigma_2$<br>2.first integral|$\mathrm{I.}$ 学习 $D_4^-$(pyramid) 的 bifurcation diagram<br>$\mathrm{II.}$ $\Sigma_2$ 可能有误，继续尝试寻找<br>$\mathrm{III.}$ 对于 symmetric system，找出其 first integral|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%89%E6%AC%A9%E7%BB%84%E4%BC%9A)|
+|第三次|2026.8.24|1.Fix $\Sigma_2$<br>2.first integral|$\mathrm{I.}$ 学习 $D_4^-$(pyramid) 的 bifurcation diagram<br>$\mathrm{II.}$ $\Sigma_2$ 可能有误，继续尝试寻找<br>$\mathrm{III.}$ 对于 symmetric system，找出其 first integral|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%89%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 |第四次|2026.8.31|$D_4$|学习两个例子，并继续研究 $\Sigma_2$（目前仍未找到正确结果）|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E7%BB%84%E4%BC%9A)|
+|第五次|2026.9.7|$D_4\text{ and Hailtonian system}$|$\mathrm{I.}$ 查找并学习论文。<br>$\mathrm{II.}$ 将所学应用并推广到 Hamiltonian system|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%BA%94%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 
 ******
 >[!Note]
