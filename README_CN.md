@@ -15,6 +15,7 @@
 |第三次|2026.8.24|1.Fix $\Sigma_2$<br>2.first integral|$\mathrm{I.}$ 学习 $D_4^-$(pyramid) 的 bifurcation diagram<br>$\mathrm{II.}$ $\Sigma_2$ 可能有误，继续尝试寻找<br>$\mathrm{III.}$ 对于 symmetric system，找出其 first integral|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%B8%89%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 |第四次|2026.8.31|$D_4$|学习两个例子，并继续研究 $\Sigma_2$（目前仍未找到正确结果）|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E5%9B%9B%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 |第五次|2026.9.7|$D_4$ <br> $\text{Hailtonian system}$|$\mathrm{I.}$ 查找并学习论文。<br>$\mathrm{II.}$ 将所学应用并推广到 Hamiltonian system|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E4%BA%94%E6%AC%A1%E7%BB%84%E4%BC%9A)|
+|第六次|2026.9.14|$\mathrm{I.}\text{Bifurcation diagram in }B_1=1,B_2=0$ <br> $\mathrm{II.}\text{Cubic form}$|$\text{Determine how each parts looks like in bifurcation diagram}$|[点我！](https://github.com/Jason-TongR/Ilya-Project/releases/tag/%E7%AC%AC%E5%85%AD%E6%AC%A1%E7%BB%84%E4%BC%9A)|
 
 ******
 >[!Note]
